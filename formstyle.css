@@ -131,12 +131,3 @@ body{
     background-color: rgb(40, 108, 253);
 }
 
-/*Responsive*/
-@media screen and (max-width: 500px){
-    .form .column{
-        flex-wrap: wrap;
-    }
-    .form :where(.Gender-option, .Gender){
-        row-gap: 10px;
-    }
-}
