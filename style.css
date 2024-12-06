@@ -86,7 +86,10 @@ color: #004de8;
 
 }
 
+/* ----hero-section---- */
+
 .hero-section{
+    padding: 20px;
     display: inline-block;
 }
 
@@ -151,7 +154,7 @@ text-align: center;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    column-gap: 20px;
+    column-gap: 30px;
     margin-top: 40px;
     padding: 20px;
 
@@ -175,7 +178,7 @@ text-align: center;
 }
 
 .course-col:hover{
-    box-shadow: 0 0 20px 0px rgb(140, 140, 140);
+    box-shadow: 0 0 20px 0px rgb(108, 108, 108);
 }
 
 /* ----card-section---- */
@@ -186,7 +189,7 @@ text-align: center;
     text-align: center;
     padding-top: 50px;
 }
-.card-row{
+.campus-row{
     margin-top: 70px;
     display: flex;
     column-gap: 28px;
@@ -217,7 +220,7 @@ text-align: center;
 }
 
 .layer:hover{
-    background-color:  rgb(62, 62, 62, 0.6);
+    background-color:  #5959599c;
     
 }
 
