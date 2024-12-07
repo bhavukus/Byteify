@@ -136,6 +136,7 @@ border-radius: 10px;
 width: 80%;
 margin: auto;
 text-align: center;
+margin-top: 100px;
 }
 .course h1{
     font-size: 38px;
@@ -178,7 +179,7 @@ text-align: center;
 }
 
 .course-col:hover{
-    box-shadow: 0 0 20px 0px rgb(108, 108, 108);
+    box-shadow: 0 0 20px 0px rgb(174, 174, 174);
 }
 
 /* ----card-section---- */
@@ -187,10 +188,10 @@ text-align: center;
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 100px;
 }
 .campus-row{
-    margin-top: 70px;
+    margin-top: 60px;
     display: flex;
     column-gap: 28px;
 }
@@ -239,8 +240,32 @@ transition: 0.5s;
 
 .layer:hover h3{
 bottom: 50%;
-opacity: 1;
+opacity: 2;
 }
+
+/* ----facilities---- */
+
+.card-section{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.card-row{
+    display: flex;
+column-gap: 50px;
+margin-top: 60px;
+
+}
+
+.card-item img{
+    height: 320px;
+    border-radius: 10px;
+
+}
+
+
 
 
 
