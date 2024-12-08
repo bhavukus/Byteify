@@ -8,7 +8,7 @@ body {
 }
 
 header.about-header {
-    background-color: #4CAF50;
+    background-color: #004de8;
     color: white;
     text-align: center;
     padding: 50px 20px;
@@ -58,7 +58,7 @@ header.about-header p {
 .about-card h2 {
     font-size: 1.5em;
     margin-bottom: 10px;
-    color: #4CAF50;
+    color: #004de8;
 }
 
 /* Team Section */
@@ -71,7 +71,7 @@ header.about-header p {
 .team-section h2 {
     font-size: 2em;
     margin-bottom: 20px;
-    color: #4CAF50;
+    color: #004de8;
 }
 
 .team-cards {

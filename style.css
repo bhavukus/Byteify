@@ -202,6 +202,7 @@ margin-top: 100px;
     margin-bottom: 30px;
     position: relative;
     overflow: hidden;
+    transition: 0.5s;
 }
 
 .campus-col img{
@@ -209,6 +210,7 @@ margin-top: 100px;
     border-radius: 10px;
     display: block;
 }
+
 
 .layer{
     background-color: transparent;
@@ -265,7 +267,57 @@ margin-top: 60px;
 
 }
 
+.card-item{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+transform: 0.5s;
+}
 
+.card-item:hover{
+    transform: scale(1.15);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+
+}
+
+/* ----testimonials-section---- */
+
+.testimonials-section{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.testimonials-row{
+    margin-top: 100px;
+    display: flex;
+    column-gap: 60px;
+
+}
+
+
+.testimonials-col{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    text-align: left;
+    background: rgb(255, 188, 188);
+    padding: 25px;
+    cursor: pointer;
+}
+
+.testimonials-col p{
+color: rgb(66, 66, 66);
+}
+
+.testimonials-col img{
+    height: 40px;
+margin-left: 5px;
+margin-right: 35px;
+border-radius: 80%;
+}
 
 /* /* ----footer --section---- * */
 
@@ -317,3 +369,4 @@ margin-top: 60px;
     padding: 1.4em;
     background: #232323;
 }
+
