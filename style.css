@@ -237,7 +237,7 @@ left: 50%;
 transform: translatex(-50%);
 position: absolute;
 opacity: 0;
-transition: 0.5s;
+transition: 0.8s;
 }
 
 .layer:hover h3{
@@ -271,7 +271,7 @@ margin-top: 60px;
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
-transform: 0.5s;
+transition: all ease-in 0.5s;
 }
 
 .card-item:hover{
@@ -298,31 +298,36 @@ transform: 0.5s;
 
 .testimonials-col{
     display: flex;
-    flex-wrap: wrap;
-    font-size: 12px;
     margin-bottom: 10px;
     border-radius: 10px;
     text-align: left;
-    background: rgb(255, 188, 188);
-    padding: 25px;
+    background: #6161619c;
+    padding: 20px;
     cursor: pointer;
 }
 
 .testimonials-col p{
-color: rgb(66, 66, 66);
+    font-size: 12px;
+    color:#ffffff;
 }
 
 .testimonials-col img{
     height: 40px;
-margin-left: 5px;
-margin-right: 35px;
-border-radius: 80%;
+    margin-left: 5px;
+    margin-right: 25px;
+    border-radius: 80%;
+}
+
+.testimonials-text h1 ,i{
+    margin-top: 20px;
+    font-size: 16px;
+color: #c8c8c8;
 }
 
 /* /* ----footer --section---- * */
 
 .footer{
-    background-color: #686868;
+    background-color: #545454;
     padding: 20px;
     float: left;
     display: flex;
