@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-/* General Styles */
-body {
+*{
+    text-decoration: none;
+    list-style: none;
     font-family:  "Poppins", serif;
     margin: 0;
     padding: 0;
+}
+
+
+/* General Styles */
+body {
     background-color: #f9f9f9;
     color: #333;
 }
@@ -31,8 +37,9 @@ header.events-header p {
     display: flex;
     justify-content: center;
     gap: 20px;
+    object-fit: cover;
     flex-wrap: wrap;
-    padding: 40px 20px;
+    padding: 60px 30px;
 }
 
 .event-card {
@@ -40,10 +47,10 @@ header.events-header p {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
-    width: 300px;
+    width: 340px;
     overflow: hidden;
     transition: transform 0.3s, box-shadow 0.3s;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .event-card:hover {
@@ -70,6 +77,10 @@ header.events-header p {
     margin-bottom: 10px;
 }
 
+.event-card .btn a{
+    padding: 20px;
+}
+/* 
 .register-btn {
     font-size: 1em;
     color: white;
@@ -80,9 +91,30 @@ header.events-header p {
     border: none;
     border-radius: 5px;
     transition: background-color 0.3s, transform 0.3s;
+} */
+
+
+.btn{
+    height: 40px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    background-color: #004de8;
+    border-radius: 10px;
+    transition: all ease-in 0.5s;
 }
 
-.register-btn:hover {
+.btn a{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn:hover {
     background-color: #004de8;
     transform: scale(1.05);
 }
